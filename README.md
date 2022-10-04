@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://chrisesbueno.github.io/my-team-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Chrisesbueno/my-team-page">
       Solution
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 ![screenshot](https://raw.githubusercontent.com/Chrisesbueno/my-team-page/main/MobileVersion.png)
 
 - Where can I see your demo?
-  <h3><a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U"> Demo </a></h3>
+  <h3><a href="https://chrisesbueno.github.io/my-team-page/"> Demo </a></h3>
 - What was your experience?
   <h3> Very stressful because I couldn't figure out how to download uneven photos </h3>
 - What have you learned/improved?
@@ -51,5 +51,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@chrisesbueno](https://chrisesbueno)
-- Twitter [@chrisesbueno](https://chrisesbueno)
+- GitHub [@chrisesbueno](https://github.com/chrisesbueno)
+- Twitter [@chrisesbueno](https://twitter.com/chrisesbueno)
