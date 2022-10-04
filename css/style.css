@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TEXT IN THE PAGE -START- */
+.container__head--title {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: 'ST Serif';
+    font-weight: 700;
+    letter-spacing: -0.045em;
+}
+.container__head--text--title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container__head--text--sub {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+   
+}
+.container__head--text {
+    margin-bottom: 40px;
+    font-family: 'Poppins';  
+}
+.container__head {
+    margin-top: 30px;
+    width: 330px;
+}
+/* TEXT IN THE PAGE -END- */
+
+/* IMAGE AND TEXT TO THE TEAM -START- */
+.container__crew{ 
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.container__person--img {
+    width: 140px;
+}
+.container__person--name {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.container__person--job {
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 171px;
+    left: 77px;
+}
+.left {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+/* IMAGE AND TEXT TO THE TEAM -END- */
+
+/* FOOTER -START- */
+footer {
+    text-align: center;
+    margin: 1rem;
+}
+
+.footer__text {
+    font-family: 'Montserrat';
+    font-size: 14px; 
+    color: #949494;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 15px;
+    color: #222121;
+}
+/* FOOTER -END- */
+@media screen and (min-width:700px) {
+    .container__crew{ 
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+    .left {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .center {
+        margin-top: 40px;
+    }
+    .container__person {
+        margin-right: 70px;
+    }
+    .container__head {
+        display: flex;
+        width: 600px;
+
+    }
+    .container__head--text {
+        margin-left: 50px;
+        width: 350px;
+        
+    }
+    .container__head--title {
+        width: 300px;
+    }
+}
